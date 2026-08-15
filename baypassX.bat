@@ -84,4 +84,4 @@ echo.
 echo Done. Open Free Fire login screen.
 echo ============================================================
 endlocal
-exit /b 0
+exit
