@@ -28,6 +28,6 @@ if errorlevel 1 (
 
 echo.
 echo [OK] File pushed successfully.
-pause
 
 endlocal
+exit
