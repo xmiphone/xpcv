@@ -31,8 +31,8 @@ echo  Gang Xereca — Bypass 400
 echo  Target: %PACKAGE_NAME%
 echo ============================================================
 
-set "ADB=C:\Program Files\BlueStacks_nxt\HD-Adb.exe"
-if not exist "%ADB%" set "ADB=C:\Program Files\BlueStacks\HD-Adb.exe"
+set "ADB=C:\Program Files\BlueStacks_msi5\HD-Adb.exe"
+if not exist "%ADB%" set "ADB=C:\Program Files\BlueStacks_nxt\HD-Adb.exe"
 if not exist "%ADB%" (
     echo [ERROR] HD-Adb.exe not found
     exit /b 1
